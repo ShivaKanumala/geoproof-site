@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="GeoProof">
+  <rect width="108" height="108" rx="24" fill="#0F1B2D"/>
+  <path fill="#14B8A6" d="M54,26C42.4,26 33,35.4 33,47C33,62.8 54,82 54,82C54,82 75,62.8 75,47C75,35.4 65.6,26 54,26Z"/>
+  <path fill="none" stroke="#0F1B2D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M44.5,47.5L51,54L64,41"/>
+</svg>
