@@ -28,13 +28,13 @@
   <div class="doc-hero">
     <div class="narrow">
       <h1>Privacy Policy</h1>
-      <p>Effective 28 October 2026 · Version 1.0</p>
+      <p>Effective 29 October 2026 · Version 1.1</p>
     </div>
   </div>
 
   <article class="doc narrow">
     <p>This policy explains how the <strong>GeoProof</strong> Android app (“the app”, package
-      <code>com.app.geoproof.geoproof</code>) and this website handle information. The app is published by
+      <code>io.github.shivakanumala.geoproof</code>) and this website handle information. The app is published by
       <strong>Siva Prasad</strong> (“we”, “us”). If you have a question, write to
       <a href="mailto:sivaprasad979@gmail.com">sivaprasad979@gmail.com</a>.</p>
 
@@ -42,7 +42,7 @@
       <strong>The short version</strong>
       <ul>
         <li>Your photos, locations, notes, projects and reports are stored <strong>only on your phone</strong>, in the app's private storage.</li>
-        <li>We run no servers that receive your data. There is <strong>no account, no analytics and no advertising</strong>.</li>
+        <li>We run no servers that receive your data. There is <strong>no account, no analytics, no advertising and no in-app purchases</strong>. The app is free.</li>
         <li>Location is used <strong>only while the app is on screen</strong>, never in the background.</li>
         <li>Data leaves your phone only when <strong>you share it</strong>, or when you turn on the optional address lookup.</li>
         <li>Stamped photos you share contain their GPS location by default. You can turn this off in Settings.</li>
@@ -57,7 +57,6 @@
         <li><a href="#camera">Camera and photos</a></li>
         <li><a href="#address">Optional address lookup</a></li>
         <li><a href="#sharing">When data leaves your phone</a></li>
-        <li><a href="#purchases">Subscriptions and payments</a></li>
         <li><a href="#storage">Storage, backup and deletion</a></li>
         <li><a href="#security">Security</a></li>
         <li><a href="#permissions">Android permissions</a></li>
@@ -80,8 +79,8 @@
           <tr><td>Location: latitude, longitude, accuracy, altitude, fix time, compass heading</td><td>To stamp and document where a photo was taken</td><td>On-device database; also inside stamped copies (see <a href="#sharing">section 5</a>)</td></tr>
           <tr><td>Street addresses (only if you turn on address lookup)</td><td>To show a readable address on stamps and reports</td><td>On-device database and address cache</td></tr>
           <tr><td>Notes, projects, site details, visits, inspection results, report settings, inspector and company names you type</td><td>To organise your work and build reports</td><td>On-device database</td></tr>
-          <tr><td>PDF reports and your logo (Pro)</td><td>Report generation and branding</td><td>App's private storage</td></tr>
-          <tr><td>App settings and your subscription status</td><td>To remember your preferences and unlock Pro features</td><td>On-device preferences</td></tr>
+          <tr><td>PDF reports and your logo (if you add one)</td><td>Report generation and branding</td><td>App's private storage</td></tr>
+          <tr><td>App settings</td><td>To remember your preferences</td><td>On-device preferences</td></tr>
         </tbody>
       </table>
     </div>
@@ -119,7 +118,6 @@
       <li><strong>Sharing</strong> photos or PDF reports through Android's share sheet (for example to WhatsApp or
         email). The receiving app or person gets the file, and their own privacy terms apply.</li>
       <li><strong>Address lookup</strong>, if you turn it on (<a href="#address">section 4</a>).</li>
-      <li><strong>Purchases</strong> through Google Play (<a href="#purchases">section 6</a>).</li>
     </ul>
     <div class="callout">
       <strong>Shared photos can reveal location.</strong> Stamped copies show the time and coordinates on the image,
@@ -130,14 +128,7 @@
     </div>
     <p>We do not sell, rent or trade your information. We never receive it in the first place.</p>
 
-    <h2 id="purchases">6. Subscriptions and payments</h2>
-    <p>GeoProof Pro is sold through Google Play Billing. Google handles the payment and your payment details, under
-      the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. The app receives only
-      the purchase status, product and purchase token from Google Play on your phone, and stores your subscription
-      status locally so Pro keeps working offline for a short grace period. We do not receive your card details, name
-      or email from Google Play through the app.</p>
-
-    <h2 id="storage">7. Storage, backup and deletion</h2>
+    <h2 id="storage">6. Storage, backup and deletion</h2>
     <ul>
       <li>All app data is kept in the app's private storage, which other apps cannot read.</li>
       <li>Android cloud backup and device-to-device transfer are <strong>turned off</strong> for GeoProof data, so your
@@ -148,44 +139,43 @@
       <li>Because we hold none of your data, we cannot recover or delete anything for you remotely.</li>
     </ul>
 
-    <h2 id="security">8. Security</h2>
+    <h2 id="security">7. Security</h2>
     <p>Your data is protected by Android's app sandbox and your phone's own encryption and screen lock. Anyone who can
       unlock your phone and open the app can see your photos, so use a screen lock. Files are shared through temporary
       content links, never through private file paths. No method of storage is perfectly secure, but keeping data on
       your device and off any server limits who can reach it.</p>
 
-    <h2 id="permissions">9. Android permissions</h2>
+    <h2 id="permissions">8. Android permissions</h2>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Permission</th><th>Used for</th></tr></thead>
         <tbody>
           <tr><td>Camera</td><td>Taking photos in the app</td></tr>
           <tr><td>Precise and approximate location</td><td>Recording where photos are taken, while the app is on screen</td></tr>
-          <tr><td>Internet and network state</td><td>Optional address lookup and Google Play purchases only</td></tr>
-          <tr><td>Google Play billing</td><td>Buying and restoring a Pro subscription</td></tr>
         </tbody>
       </table>
     </div>
-    <p>The app does not request storage, microphone, contacts or background location permissions.</p>
+    <p>The app does not request internet, storage, microphone, contacts or background location permissions. The optional
+      address lookup is carried out by Android's own geocoding service, not by GeoProof.</p>
 
-    <h2 id="children">10. Children</h2>
+    <h2 id="children">9. Children</h2>
     <p>GeoProof is a work tool intended for adults. It is not directed to children under 13 (or the equivalent minimum
       age where you live), and we do not knowingly collect information from children. In any case, the app does not
       send personal information to us.</p>
 
-    <h2 id="rights">11. Your choices and rights</h2>
+    <h2 id="rights">10. Your choices and rights</h2>
     <p>You control your data directly in the app. You can view, edit, share or delete any photo, project or report,
       turn address lookup and GPS-in-EXIF on or off, and revoke camera or location permission in Android settings at any
       time. Depending on where you live, including under India's Digital Personal Data Protection Act, 2023, and the EU
       GDPR, you may have rights to access, correct or erase personal data. Because we do not hold your data, you can
       exercise those rights in the app itself. For any request or concern, contact us and we will reply within 30 days.</p>
 
-    <h2 id="website">12. This website</h2>
+    <h2 id="website">11. This website</h2>
     <p>This website is hosted on GitHub Pages. It uses no cookies, analytics, advertising or third-party fonts or
       scripts. Like any web host, GitHub may log technical data such as your IP address to operate and secure its
       service. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</p>
 
-    <h2 id="changes">13. Changes to this policy</h2>
+    <h2 id="changes">12. Changes to this policy</h2>
     <p>If the app's handling of data changes, we will update this page and its effective date before the change is
       released, and note significant changes below. If a future version adds anything that sends your data off the
       device, it will be optional and will ask for your consent first.</p>
@@ -194,11 +184,12 @@
         <thead><tr><th>Version</th><th>Date</th><th>Changes</th></tr></thead>
         <tbody>
           <tr><td>1.0</td><td>28 Oct 2026</td><td>First published.</td></tr>
+          <tr><td>1.1</td><td>29 Oct 2026</td><td>GeoProof is now completely free: in-app subscriptions and Google Play Billing were removed. New package name. The app no longer requests the internet permission.</td></tr>
         </tbody>
       </table>
     </div>
 
-    <h2 id="contact">14. Contact</h2>
+    <h2 id="contact">13. Contact</h2>
     <p>Siva Prasad (developer of GeoProof)<br>
       Email: <a href="mailto:sivaprasad979@gmail.com">sivaprasad979@gmail.com</a></p>
   </article>

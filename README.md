@@ -19,7 +19,7 @@ releasing any app change that affects:
 - any network request (new API, crash reporting, analytics, cloud sync, ads);
 - Android permissions (check the merged release manifest);
 - default settings such as address lookup (off) or GPS in EXIF (on);
-- billing, prices, the grace period or which features are Pro.
+- adding any paid feature, in-app purchase or advertising (the app is free).
 
 When you change `privacy.html` or `terms.html`:
 
